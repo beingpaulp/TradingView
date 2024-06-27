@@ -9,7 +9,7 @@ indicator("Entry & Exits", overlay = true, max_bars_back = 240)
 // Make sure you get the timestamps down to the second your order was filled.
 // Create a list of entries and exits, for example:
 
-//   "113543-3@4.00","121729-21@6.50"
+//   "113543-3@4.00","121729-3@6.50"
 
 // The above would be:
 //   11:35:43 Buy to Open 3 at $4 =~ $400 * 3 = $1200
