@@ -21,7 +21,7 @@ indicator("Entry & Exits", overlay = true, max_bars_back = 240)
 
 // Define the times at which you want to draw horizontal rays
 // the format is hhmmss in 24-hour format
-var trades = array.from("113543-3@4.00","121729-21@6.50")
+var trades = array.from("113543-3@4.00","121729-3@6.50")
 
 // calculate a 1 day x2 ts (ms) offset
 x2 = 1000 * 60 * 60 * 24
